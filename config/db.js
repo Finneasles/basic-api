@@ -6,8 +6,6 @@ config = {
         database: process.env.MYSQL_DB || "local",
         user: process.env.MYSQL_USER || "root",
         password: process.env.MYSQL_PW || "",
-        port: 10005
-    })
-};
-
+        port: process.env.MYSQL_PORT || 3306
+    })};
 module.exports = config;
