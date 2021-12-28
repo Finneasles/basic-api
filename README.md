@@ -10,6 +10,7 @@ A simple api using NodeJS, ExpressJS and MYSQL.
   4 - Run with
   ``` bash
  $ npm start    
- ```.
+ ```
+ 
 
 
